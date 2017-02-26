@@ -209,6 +209,29 @@ h6{
 .albumSi{
 background-color: rgb(86, 134, 133);
 }
+@media only screen and (max-width: 680px) {
+    .blg{
+        width: 100%;
+    }
+    .albumSi{
+        padding-top: 24px;
+    }
+    .albumSingle {
+        opacity: 1;
+        padding: 0px;
+        border-radius: 5px;
+        border: 0px solid rgb(200, 200, 200);
+        background-size: auto;
+        background: rgb(209, 209, 209) none repeat center center;
+        width: 240px;
+        height: 166px;
+        position: relative;
+        top: calc(0% - 326px);
+        left: calc(70% - 238px);
+        /* margin-top: -253px; */
+        /* margin-left: 48px; */
+    }
+}
 @media only screen and (max-width: 600px) {
     /*ALBUM CSS*/
 
