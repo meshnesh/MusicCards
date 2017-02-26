@@ -1,0 +1,327 @@
+h6{
+    font-weight: 300;
+}
+.events-prog .cards-home {
+    padding-bottom: 30px;
+}
+
+.card-small {
+    overflow: hidden;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    color: #272727;
+    border-radius: 2px;
+    background-color: ghostwhite;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card-small .card-header {
+    line-height: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.card-small .content {
+    padding: 1.3rem;
+    font-weight: 300;
+    border-radius: 0 0 2px 2px;
+    display: inline-block;
+    width: 100%;
+}
+.content .action p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.card-small p {
+    margin: 0;
+}
+
+.card-small .action {
+    padding: 10px;
+    text-align: right;
+    display: inline-block;
+    float: right;
+}
+
+.card-small a {
+    color: #ffab40;
+    margin-right: 0;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.card-small .image {
+    position: relative;
+    height: 332px;
+    background-size: cover;
+}
+
+.card-small .image .card-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1.3rem;
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.card-small .image img {
+    border-radius: 2px 2px 0 0;
+    width: 100%;
+    height: 300px;
+}
+
+.card-small {
+    opacity: 1;
+    padding: 0px;
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid rgba(200, 200, 200, 0.54902);
+    border-top-width: 0px;
+    background-size: auto;
+    background: rgb(255, 255, 255) none repeat center center;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+
+}
+
+.card-event-date {
+    display: inline-block;
+}
+
+.card-event-text {
+    width: 100%
+}
+
+.titanium {
+    background-color: #eee;
+}
+
+.card-header:hover {
+    color: #eee;
+}
+
+
+.img_22 {
+    background-image: url(../imgs/single/s3samuelburgessjohnson.jpg);
+}
+
+.img_23 {
+    background-image: url(../imgs/single/s5_samueljohnson.jpg);
+}
+
+.img_24 {
+    background-image: url(../imgs/single/s3samuelburgessjohnson.jpg);
+}
+/*ALBUM CSS*/
+.albumImage{
+    opacity: 1;
+    padding: 0;
+    border-radius: 10px 10px 0px 0px;
+    border: 0 solid rgb(200, 200, 200);
+    background-size: auto;
+    background-color: rgb(241, 232, 235);
+    width: 100%;
+    height: 332px;
+}
+.albumNg-element{
+    opacity: 1;
+    border-radius: 0;
+    width: 100%;
+    height: 332px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.albumCard{
+    border-radius: 10px 10px 0 0;
+}
+.albumSingle{
+    opacity: 1;
+    padding: 0px;
+    border-radius: 5px;
+    border: 0px solid rgb(200, 200, 200);
+    background-size: auto;
+    background: rgb(209, 209, 209) none repeat center center;
+    width: 166px;
+    height: 166px;
+    position: relative;
+    top: calc(0% - 254px);
+    left: calc(100% - 248px);
+    /*margin-top: -253px;*/
+    /*margin-left: 48px;*/
+}
+.albumSimage{
+    z-index: 10000;
+    border-radius: 5px;
+    width: 166px;
+    height: 166px;
+}
+.playA{
+    float: right;
+}
+.albumButton{
+    width:50%;
+}
+.buttonA{
+    width: 104px;
+    margin-left: 8px;
+    border-radius: 5px;
+}
+.buttonB{
+    /*margin-left: 16px;*/
+    width: 96px;
+    border-radius: 5px;
+}
+
+.nav{
+    padding-left: 32px;
+    line-height: 2;
+    margin-left: 1.25rem;
+}
+.nav li{
+    list-style-type: decimal-leading-zero;
+}
+.albumBirth{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 4px;
+}
+.albumDescription{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 4px;
+}
+.albumCredits{
+    margin-top: 16px;
+    margin-left: 4px;
+    margin-bottom: 16px;
+}
+.albumCredits, .albumDescription, .albumBirth p{
+    padding-left: 24px;
+}
+.albumSi{
+background-color: rgb(86, 134, 133);
+}
+@media only screen and (max-width: 600px) {
+    /*ALBUM CSS*/
+
+    .albumSingle{
+        opacity: 1;
+        padding: 0px;
+        border-radius: 5px;
+        border: 0px solid rgb(200, 200, 200);
+        background-size: auto;
+        background: rgb(209, 209, 209) none repeat center center;
+        width: 230px;
+        /* height: 78px; */
+        position: relative;
+        top: calc(-19% - 254.5px);
+        left: calc(102% - 389px);
+    }
+    .albumSi{
+        background-color: rgb(86, 134, 133);
+    }
+}
+@media only screen and (max-width: 415px) {
+    .albumSingle{
+        opacity: 1;
+        padding: 0px;
+        border-radius: 5px;
+        border: 0px solid rgb(200, 200, 200);
+        background-size: auto;
+        background: rgb(209, 209, 209) none repeat center center;
+        width: 166px;
+        /* height: 78px; */
+        position: relative;
+        top: calc(0% - 254.5px);
+        left: calc(138% - 388px);
+    }
+    .albumSi{
+        background-color: rgb(86, 134, 133);
+    }
+}
+@media only screen and (max-width: 384px) {
+    /*ALBUM CSS*/
+
+    .albumSingle{
+        opacity: 1;
+        padding: 0px;
+        border-radius: 5px;
+        border: 0px solid rgb(200, 200, 200);
+        background-size: auto;
+        background: rgb(209, 209, 209) none repeat center center;
+        width: 166px;
+        height: 166px;
+        position: relative;
+        top: calc(0% - 253.5px);
+        left: calc(113% - 276px);
+    }
+    .albumSi{
+        background-color: rgb(86, 134, 133);
+    }
+
+
+}
+@media only screen and (max-width: 320px) {
+    .card-small .image {
+        position: relative;
+        height: 332px;
+        background-size: cover;
+        background-size: 100% 100%;
+    }
+    /*ALBUM CSS*/
+    .albumImage{
+        opacity: 1;
+        padding: 0;
+        border-radius: 10px 10px 0px 0px;
+        border: 0 solid rgb(200, 200, 200);
+        background-size: auto;
+        background-color: rgb(241, 232, 235);
+        width: 100%;
+        height: 332px;
+    }
+    .albumNg-element{
+        opacity: 1;
+        border-radius: 0;
+        width: 100%;
+        height: 332px;
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+    .albumCard{
+        border-radius: 10px 10px 0 0;
+    }
+    .albumSingle{
+        opacity: 1;
+        padding: 0px;
+        border-radius: 5px;
+        border: 0px solid rgb(200, 200, 200);
+        background-size: auto;
+        background: rgb(209, 209, 209) none repeat center center;
+        width: 166px;
+        height: 166px;
+        position: relative;
+        top: calc(0% - 253.5px);
+        left: calc(113% - 248px);
+        /*margin-top: -253px;*/
+        /*margin-left: 48px;*/
+    }
+    .albumSimage{
+        z-index: 10000;
+        border-radius: 5px;
+        width: 166px;
+        height: 166px;
+    }
+    .albumSi{
+        background-color: rgb(86, 134, 133);
+    }
+}
+
